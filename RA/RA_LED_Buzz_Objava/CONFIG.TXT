@@ -1,0 +1,10 @@
+********  Configuration Information File *******
+
+--------------- Version ------------------------
+winIDEA:       Build 9.12.256  (22/10/2015)
+
+--------------- Settings -----------------------
+Workspace:     C:\Winidea\Delo\RA_LED_Buzz_Blink_Objava_v2020\asmpr1.jrf
+IDE Load:      C:\Users\Robi\AppData\Roaming\ASYST\winIDEA\winIDEA.xtrf
+OS:            Windows NT 6.2 Build 9200 
+

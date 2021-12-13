@@ -1,0 +1,10 @@
+CONVERTING	C:\winIDEA\Delo\RA\RA_LED_Buzz_Adv_Buzzer_Melody_Demo\Debug\asmpr1.elf
+LOADING	C:\winIDEA\Delo\RA\RA_LED_Buzz_Adv_Buzzer_Melody_Demo\Debug\asmpr1.elf
+ANALYZING
+ANALYZING
+EMULATION	POD: ARM9   CPU: ARM926EJS
+LOADING 	488 bytes
+VERIFYING
+	FILE: asmpr1.elf  AREA: Virtual
+	Verifying 1E8h locations from 00h
+	Verify OK

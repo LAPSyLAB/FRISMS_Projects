@@ -1,0 +1,11 @@
+INITIALIZING	Emulator: iONE (SN 51102)   Debugger: On-chip
+CONVERTING	C:\winIDEA\Delo\RA\RA_LED_Buzz_Basic_Demo\Debug\asmpr1.elf
+LOADING	C:\winIDEA\Delo\RA\RA_LED_Buzz_Basic_Demo\Debug\asmpr1.elf
+ANALYZING
+ANALYZING
+EMULATION	POD: ARM9   CPU: ARM926EJS
+LOADING 	404 bytes
+VERIFYING
+	FILE: asmpr1.elf  AREA: Virtual
+	Verifying 194h locations from 00h
+	Verify OK
