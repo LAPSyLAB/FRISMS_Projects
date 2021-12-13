@@ -1,0 +1,11 @@
+INITIALIZING	Emulator: iONE (SN 51102)   Debugger: On-chip
+CONVERTING	C:\winIDEA\Delo\OR\TC_PIO_LED_IRQ\Debug\asmpr1.elf
+LOADING	C:\winIDEA\Delo\OR\TC_PIO_LED_IRQ\Debug\asmpr1.elf
+ANALYZING
+ANALYZING
+EMULATION	POD: ARM9   CPU: ARM926EJS
+LOADING 	564 bytes
+VERIFYING
+	FILE: asmpr1.elf  AREA: Virtual
+	Verifying 0234h locations from 0000h
+	Verify OK

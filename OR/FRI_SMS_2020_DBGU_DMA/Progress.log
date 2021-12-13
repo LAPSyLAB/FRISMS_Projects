@@ -1,0 +1,11 @@
+INITIALIZING	Emulator: iONE (SN 51102)   Debugger: On-chip
+CONVERTING	C:\winIDEA\Delo\OR\FRI_SMS_2020_DBGU_DMA\Debug\asmpr1.elf
+LOADING	C:\winIDEA\Delo\OR\FRI_SMS_2020_DBGU_DMA\Debug\asmpr1.elf
+ANALYZING
+ANALYZING
+EMULATION	POD: ARM9   CPU: ARM926EJS
+LOADING 	452 bytes
+VERIFYING
+	FILE: asmpr1.elf  AREA: Virtual
+	Verifying 1C4h locations from 00h
+	Verify OK
