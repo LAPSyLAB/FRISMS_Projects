@@ -1,0 +1,13 @@
+INITIALIZING	Emulator: iONE (SN 51101)   Debugger: On-chip
+CONVERTING	C:\winIDEA\Projekti\C_PIO_LED_ONOFF_Delay_Demo\Debug\cpr1.elf
+LOADING	C:\winIDEA\Projekti\C_PIO_LED_ONOFF_Delay_Demo\Debug\cpr1.elf
+ANALYZING
+ANALYZING
+EMULATION	POD: ARM9   CPU: ARM926EJS
+LOADING 	588 bytes
+VERIFYING
+	FILE: cpr1.elf  AREA: Virtual
+	Verifying 44h locations from 00h
+	Verifying 00000204h locations from 20000000h
+	Verifying 00000004h locations from 20800000h
+	Verify OK

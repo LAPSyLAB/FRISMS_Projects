@@ -1,0 +1,63 @@
+OUTPUT_FORMAT("elf32-littlearm", "elf32-bigarm", "elf32-littlearm")
+OUTPUT_ARCH(arm)
+ENTRY(_start)
+
+INPUT(&& &&Assembler Files&)   
+INPUT(&& &&Source Files&)
+
+__VECTORS_START__ = 0x00000000;
+__TEXT_START__    = 0x20000000;
+__DATA_START__    = 0x20800000;
+__STACK_END__     = 0x22000000;
+__RAM_END__       = 0x22000000;
+                     
+SECTIONS
+{
+  /* Read-only sections, merged into text segment */
+
+  . =   __VECTORS_START__ ;
+
+  .intvect : { *intvec.o(.intvect) } 
+    
+  . = __TEXT_START__ ; 
+  .text :
+  {
+    *(.text)    
+    *(.text.*)
+  }
+  
+  
+  PROVIDE (__etext = .);
+  
+  .rodata   : 
+  { 
+    *(.rodata) 
+    *(.rodata.*) 
+  }
+  
+  /* append .data; it will be copied by crt0 to final __DATA_START__ */        
+  . = ALIGN(4);  
+  __INIT_DATA_START__ = .;  
+  .data __DATA_START__ : AT ( __INIT_DATA_START__ )
+  {
+    *(.data)
+    *(.data.*)
+    SORT(CONSTRUCTORS)
+  }
+  . = ALIGN(4);  
+  __DATA_END__ = .;  
+ 
+  /* noninitialized data; will be zeroed by crt0*/
+  __bss_start__ = .;
+  .bss       :
+  {
+   *(.bss)
+   *(.bss.*)
+   *(COMMON)
+   . = ALIGN(4);
+  }
+  . = ALIGN(4);
+  __bss_end__ = . ;
+  PROVIDE (end = .);
+}
+
